@@ -1,0 +1,19 @@
+/* element selector */
+h1 {
+  color: darkblue;
+}
+
+/* class selector */
+.head2 {
+  color: red;
+}
+
+/* id selector */
+#head3 {
+  color: purple;
+}
+
+/* pseudo selector */
+.desc1 + a {
+  color: red;
+}
