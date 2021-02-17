@@ -1,0 +1,67 @@
+/* start symbol target every single element on the page or file html */
+* {
+  background-color: grey;
+}
+
+/* element selector */
+h1 {
+  color: darkblue;
+}
+
+/* class selector */
+.head2 {
+  color: red;
+}
+
+/* id selector */
+#head3 {
+  color: purple;
+}
+
+/* combinator selector */
+
+/* descendant */
+li a {
+  color: whitesmoke;
+}
+
+/* adjacent */
+.desc1 + a {
+  color: red;
+}
+
+/* sibling */
+.head2 ~ p {
+  color: whitesmoke;
+}
+
+/* end combinator selector */
+
+/* pseudo selector */
+h1:hover {
+  color: red;
+}
+
+li:first-child {
+  color: red;
+}
+
+li:last-child {
+  color: aqua;
+}
+
+li:nth-child(2) {
+  color: purple;
+}
+
+/* li:only-child {
+  color: blue;
+} */
+
+#google-link:link {
+  color: blue;
+}
+
+#google-link:visited {
+  color: red;
+}
