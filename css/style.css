@@ -65,3 +65,25 @@ li:nth-child(2) {
 #google-link:visited {
   color: red;
 }
+
+/* attribut selector */
+img[src^="https://"]
+{
+  border: 10px black solid;
+}
+
+/* 
+img[src$="https://"]
+{
+  border: 10px black solid;
+}
+
+img[src*="https://"]
+{
+  border: 10px black solid;
+} 
+*/
+
+h1[class~="article-subtitle"] {
+  background-color: green;
+}
