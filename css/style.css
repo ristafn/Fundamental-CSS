@@ -87,3 +87,8 @@ img[src*="https://"]
 h1[class~="article-subtitle"] {
   background-color: green;
 }
+/* 
+h1[class|="article-subtitle"] {
+  background-color: green;
+} 
+*/
